@@ -9,5 +9,6 @@
   "phonk/ef8": { "category": "master", "sounds": [ "so-tuff:phonk/ef8" ] },
   "phonk/ef9": { "category": "master", "sounds": [ "so-tuff:phonk/ef9" ] },
   "phonk/ef10": { "category": "master", "sounds": [ "so-tuff:phonk/ef10" ] },
-  "phonk/ef11": { "category": "master", "sounds": [ "so-tuff:phonk/ef11" ] }
+  "phonk/ef11": { "category": "master", "sounds": [ "so-tuff:phonk/ef11" ] },
+  "phonk/ef12": { "category": "master", "sounds": [ "so-tuff:phonk/ef12" ]}
 }

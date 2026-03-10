@@ -1,13 +1,17 @@
 package net.ekical.sotuff.client;
 
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
+
 import net.ekical.sotuff.config.SoTuffConfig;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.resource.Resource;
 import net.minecraft.util.Identifier;
-
-import java.util.*;
 
 public final class OverlayRenderer {
     private static final MinecraftClient MC = MinecraftClient.getInstance();
@@ -78,7 +82,7 @@ public final class OverlayRenderer {
         int fullW = ctx.getScaledWindowWidth();
         int fullH = ctx.getScaledWindowHeight();
 
-        int texW = 512, texH = 512;
+        int texW = 960, texH = 1708;
         double scale  = Math.min((double) fullW / texW, (double) fullH / texH) * 0.30;
         int centerX   = fullW >> 1;
         int centerY   = fullH >> 1;
